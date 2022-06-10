@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "deploy": "fly deploy --remote-only",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.5.1",
+    "@remix-run/react": "^1.5.1",
+    "@remix-run/serve": "^1.5.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.5.1",
+    "@remix-run/eslint-config": "^1.5.1",
+    "@types/react": "^18.0.12 ",
+    "@types/react-dom": "^18.0.5",
+    "eslint": "^8.15.0",
+    "typescript": "^4.6.4",
+    "autoprefixer": "^10.4.0",
+    "babel-jest": "^28.1.1",
+    "concurrently": "^6.5.1",
+    "he": "^1.2.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "jest-fetch-mock": "^3.0.3",
+    "msw": "^0.42.1",
+    "react-test-renderer": "^18.1.0",
+    "ts-jest": "^28.0.4",
+    "whatwg-fetch": "^3.6.2",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-typescript": "^7.17.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@types/jest": "^27.5.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
